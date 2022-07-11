@@ -6,7 +6,6 @@ from matplotlib.ticker import (MultipleLocator, FormatStrFormatter,
                                AutoMinorLocator)
 from matplotlib import pylab
 
-print ("Programme by Filatov & Tkachenko")
 
 # Список констант
 P = 3.14159
