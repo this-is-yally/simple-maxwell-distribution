@@ -1,6 +1,12 @@
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker                               
+import numpy as np
+import math
+from matplotlib.ticker import (MultipleLocator, FormatStrFormatter,
+                               AutoMinorLocator)
+from matplotlib import pylab
 
-
-print ("Programm by Filatov & Tkachenko")
+print ("Programme by Filatov & Tkachenko")
 
 # Список констант
 P = 3.14159
@@ -8,7 +14,6 @@ R = 8.3144
 e = 2.71828
 
 # Введение молярной массы пользователем
-import math
 print ("Введите молярную массу в г/моль")
 m = input("Молярная масса = ")
 mm = "г/моль"
@@ -39,14 +44,6 @@ print(f"4. f(V)🠕, V є [0; {j}])")
 print("5. Не періодична")
 print(f"6. Найбільшого значення набуває при V = {j}")
 print(f"7. Площа під графіком функції дорівнює 1")
-
-# Запуск директории matplotlib
-import matplotlib.pyplot as plt
-from matplotlib.ticker import (MultipleLocator, FormatStrFormatter,
-                               AutoMinorLocator)
-from matplotlib import pylab
-import matplotlib.ticker as ticker                               
-import numpy as np
 
 # Формула у и заданые параметры х
 x = np.linspace(0, 35, 30)
